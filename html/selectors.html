@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: yellowgreen;
+        }
+        p{
+            color: blue;
+
+        }
+        .textcolor{
+            color: aquamarine;
+
+        }
+        .largetext{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        /* .textcolor .largetext{
+            font-family: Arial, Helvetica, sans-serif;
+        } */
+        #unique{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        /* grouping selectors */
+        h4 , a, h3{
+            color: red;
+        }
+        /* a{
+            color: lightgreen;
+        } */
+        h3{
+            font-size: 40px;
+        }
+               /* descendant selector  */
+               div p span {
+            color: rgb(7, 31, 13);
+        }
+        /* children selector */
+        div>p>span{
+            color:aquamarine;
+        }
+        a[target="_blank"]{
+            color: darksalmon;
+
+        }
+        a[ href="http://google"]{
+            color: limegreen;
+
+        }
+        p[ class="key"]{
+            color: fuchsia;
+
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>CLASS SELECTORS</h1>
+    <p class="textcolor largetext" id="unique">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, iste, voluptatem recusandae beatae veritatis inventore dolore et, suscipit modi totam ad dolores. Veniam at vitae cupiditate ad blanditiis praesentium beatae possimus hic, dignissimos saepe iure tempora facere impedit atque! Est, nulla? Architecto accusantium vitae iste repellendus sint doloribus in qui quaerat neque. At sint ducimus sapiente qui cumque animi quos eos, alias est quaerat labore nesciunt incidunt, ullam ut! Debitis unde deleniti nemo qui numquam beatae labore minus aut nam? Nulla minus ex iste nisi quibusdam dicta doloremque numquam repudiandae omnis! Quo placeat ea atque optio fuga itaque maiores delectus illum ducimus odio porro exercitationem laboriosam culpa voluptas nisi laudantium qui numquam, possimus repellendus doloremque, eligendi, omnis reiciendis! Nobis reiciendis enim culpa expedita doloremque. Dolore sunt aliquid in ratione laborum placeat voluptates, corporis voluptate, cumque molestiae libero qui veniam id alias sequi eveniet harum provident. Accusamus molestiae, quas deserunt in ad ipsa reprehenderit, animi atque iure ut obcaecati. Quidem ea ut qui eum minima incidunt! Asperiores ipsum sunt quidem! Corrupti natus quia sit beatae rerum? Quia nam aliquid, repellat, exercitationem eligendi accusantium illum esse optio voluptate officiis beatae sapiente numquam fuga odio sed, cumque non est iusto eos.</p>
+
+    <p class="largetext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam hic voluptate quasi veniam velit architecto debitis praesentium aspernatur dolore. Consequuntur mollitia perspiciatis iusto fuga est natus. Molestiae explicabo ipsa culpa recusandae reiciendis enim ullam non sunt, ea assumenda a in dignissimos rerum. Beatae fugit minus, nobis temporibus ut iusto ratione dignissimos iure deserunt illum recusandae? Ducimus facere, quaerat dicta optio accusantium nulla labore, ut dolorem possimus praesentium culpa nostrum? Repellendus unde deserunt esse, ducimus inventore repellat atque quam sapiente ipsa doloremque vel ipsum, sequi amet veritatis est blanditiis autem. Soluta, optio repellat quibusdam est at error dignissimos harum reiciendis velit.</p>
+
+    <p class="textcolor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique harum nulla sequi placeat pariatur amet perspiciatis eligendi libero modi laboriosam quis suscipit vel architecto, provident, labore voluptatem qui animi dolor asperiores! Itaque quod alias aspernatur nisi illo nam dolorum quisquam facilis maiores sed consequuntur fugit vel quae, dolores cupiditate quos vero culpa, quibusdam quam. Porro omnis dignissimos ducimus voluptatum inventore labore sint expedita debitis maiores illum, vero repellat, sed alias veritatis magni quis at aliquam ex consectetur accusantium, suscipit obcaecati esse quaerat! Ipsam, blanditiis. Dicta ad nulla voluptas reiciendis illum tempora amet maxime saepe, reprehenderit quibusdam nostrum placeat quasi non.</p>
+
+    <h4>i am H1</h1>
+
+    <a href="http://www.instagram.com" target="_blank">INSTAGRAM</a>
+    
+      <!-- Combinators selector -->
+        <!-- Descendant Selector -->
+
+        <div>
+            <p> <!--  descendant and child of div -->
+                <span>I am a direct child</span> <!--descendant of div but not a child of div  child of p-->
+            </p>
+        </div>
+
+        <div>
+            <span>
+                <p>
+                    <span>I am an indirect child</span>
+                 </p>
+            </span>
+        </div>
+        <!-- attribute selector -->
+        <a href="http://google" target="_blank" >GOOGLE</a>
+        <a href="http://nados" target="_blank" >NADOS</a>
+        <a href="http://netflix" target="_blank" >NETFLIX</a>
+        <p class="key">yoooo</p>
+ 
+
+    
+</body>
+</html>
