@@ -39,10 +39,10 @@ cars.shift();
 cars.shift();
 console.log(cars);
 
-
 console.log(cars.length);
 
 // 2d array
+
 
 let array2d = [
     [1, 2, 3],
