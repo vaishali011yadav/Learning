@@ -1,9 +1,10 @@
-{
+// js is a synchronous and single threaded language
     // // staritng JS-> JavaScript
     // // var let const
 
     // // varibale declaration
     // var a; //int string float ? 
+
 
     // // variable initalization
     // a = 10;
@@ -11,7 +12,6 @@
     // a = 20;
     // console.log(typeof a);
     // console.log(a);
-
     // a = "hello"; //re initialize of varibale 'a'
     // console.log(a);
 
@@ -22,9 +22,12 @@
     // console.log(a);
     // console.log(typeof a);
 
-    // a = null;
-    // console.log(a);
-    // console.log(typeof a);
+
+    a = null;
+    console.log(a);
+    console.log(typeof a);
+
+
 
     //Number
     var num = 10;
@@ -47,6 +50,7 @@
     //backslash n("\n")
     // console.log(str);
 
+
     var b = `hi hope you guys are 
 able grasp the concepts`;
     // console.log(b);
@@ -55,10 +59,7 @@ able grasp the concepts`;
     // ${}
     // console.log(`half of ${num} is ${num / 2}`);
 
-
-
     //var has some problem
-
     // 1) redeclaration is allowed 
     var r = "hello";
     // console.log(r);
@@ -67,7 +68,6 @@ able grasp the concepts`;
     // console.log(r);
 
     // overcome krne ke liye 
-
     // let keyword is used
     let l = 100;
     // console.log(l);
@@ -122,7 +122,7 @@ able grasp the concepts`;
     // console.log("hey");
 
 
-}
+// } 
 
 
 

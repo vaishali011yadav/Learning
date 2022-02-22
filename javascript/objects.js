@@ -83,3 +83,41 @@ let arrr = {
     2: 1,
     3:true
 }
+
+//for loop 
+// in keyword in JS is used to get keys from that object
+for (let haathi in captainAmerica) {
+    //key
+    console.log(haathi);
+    // hathi jo varibale h uske andar meri key ki value padi hui h 
+    //value
+    // varibale ke andar jo binded value h wo chahiye 
+    console.log(captainAmerica[haathi]); //bracket notation usage
+}
+
+
+
+// str{
+//     length: // 
+//     toUpperCase: function() {
+
+//         for()
+//     }
+// }
+
+
+
+
+
+// methods-> objects ke andar function
+// console.log(str.toUpperCase());
+
+
+let arr = ["a", "b", 1, true];
+
+let arrr = {
+    0: "a",
+    1: "b",
+    2: 1,
+    3:true
+}

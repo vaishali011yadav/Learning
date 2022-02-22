@@ -10,9 +10,9 @@
 // function invoke
 // function_name(arg1, arg2);
 
-// function add(a, b) {
-//     console.log( a + b);
-// }
+function add(a, b) {
+    console.log( a + b);
+}
 
 
 // add(2, 6);
@@ -36,14 +36,14 @@ console.log("returned function is\n" + returnedFunc);
 returnedFunc();
 
 
-let sayBye = function () {
-    console.log("bye guys");
-  };
+// let sayBye = function () {
+//     console.log("bye guys");
+//   };
   
-  console.log("line 57\n" + sayHi);
-  sayHi();
-  console.log("line 59\n" + sayBye);
-  sayBye();
+//   console.log("line 57\n" + sayHi);
+//   sayHi();
+//   console.log("line 59\n" + sayBye);
+//   sayBye();
   //abcd(); // error abcd is not defined
 
 
@@ -57,12 +57,12 @@ let sayBye = function () {
 // name of variable is ised to invoke the funciton
 // variable_name();
 
-let sayHi=function () {
-    console.log("hello guys is am function expression");
-}
+// let sayHi=function () {
+//     console.log("hello guys is am function expression");
+// }
 
-console.log("line 54\n" + sayHi);
-sayHi();
+// console.log("line 54\n" + sayHi);
+// sayHi();
 //abcd(); // error abcd is not defined
 
 // console.log("line 57\n" + sayHi);
@@ -74,14 +74,14 @@ sayHi();
 
 // 3) IIFE-> Imediately invoke function expression
 
-function add(a, b) {
-    return a + b
-}
-add(2, 3);
+// function add(a, b) {
+//     return a + b
+// }
+// add(2, 3);
 
-let additionIIFE = (function (a, b) {
-  console.log(a + b);
-})(20, 30);
+// let additionIIFE = (function (a, b) {
+//   console.log(a + b);
+// })(20, 30);
 
 // console.log(additionIIFE);
 // console.log(additionIIFE(20, 30));
