@@ -13,7 +13,7 @@ let optionsArr = [];
 //===============> placed files path in filesArr <=============
 for (let i = 0; i < inputArr.length; i++){
     let firstChar = inputArr[i].charAt(0);
-    // console.log(firstChar);
+    console.log(firstChar);
     if (firstChar == '-') {
         optionsArr.push(inputArr[i]);
     }
@@ -33,7 +33,7 @@ for (let i = 0; i < filesArr.length; i++){
     }
 }
 
-// =============>content read and appending starts<=============//
+// // =============>content read and appending starts<=============//
 let content = "";
 for (let i = 0; i < filesArr.length; i++){
     let fileContent = fs.readFileSync(filesArr[i]);
@@ -43,7 +43,7 @@ for (let i = 0; i < filesArr.length; i++){
 console.log(content);
 
 let contentArr = content.split("\n"); // "\r\n" for windows laptop
-// console.table(contentArr);
+console.table(contentArr);
 
 //check if -s is present or not
 let tempArr = [];
