@@ -22,7 +22,6 @@ for (let i = 0; i < inputArr.length; i++){
     }
 }
 // console.log("file to be read are " + filesArr);
-
 //=============>check if all the files are present<============= //
 for (let i = 0; i < filesArr.length; i++){
     let doesExist = fs.existsSync(filesArr[i]);
@@ -32,19 +31,15 @@ for (let i = 0; i < filesArr.length; i++){
         process.exit();
     }
 }
-
 // // =============>content read and appending starts<=============//
 let content = "";
 for (let i = 0; i < filesArr.length; i++){
     let fileContent = fs.readFileSync(filesArr[i]);
-    content = content + fileContent + "\n";  // "\r\n" for windows laptop
-                     
+    content = content + fileContent + "\n";  // "\r\n" for windows laptop                   
 }
 console.log(content);
-
 let contentArr = content.split("\n"); // "\r\n" for windows laptop
 console.table(contentArr);
-
 //check if -s is present or not
 let tempArr = [];
 let isSPresent = optionsArr.includes("-s");

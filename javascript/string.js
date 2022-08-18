@@ -9,9 +9,7 @@ console.log(str[4]);
 console.log(str.length);
 
 // string methods 
-
 // 1. Extraction method
-
 //slice method 
 // slice(start, end) -> start index is inclusive and end index is exclusive 
                        //(start,end)

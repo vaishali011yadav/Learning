@@ -24,8 +24,8 @@
 
 
     a = null;
-    console.log(a);
-    console.log(typeof a);
+    // console.log(a);
+    // console.log(typeof a);
 
 
 
@@ -43,7 +43,7 @@
 
     //String
     // ' ' , " " , ``
-    // single quotes, double quotes, backtick 
+    // single quotes, double quotes, backtick ('',"",``)
     var str = 'a';
     // console.log(typeof str);
     str = "How you doin ?\ni am fine. how about you ?";
